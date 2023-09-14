@@ -50,10 +50,10 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
     if(tree->root==NULL){
       tree->root = New;
       tree->current=New;
-    }else{
+    }/*else{
       tree->current=tree->root;
-    }
-    while(tree->current!=NULL){
+    }*/
+    /*while(tree->current!=NULL){
       if(is_equal(tree,key,tree->current->pair->key)){
         return;
       }
@@ -64,7 +64,7 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
         
         
       }
-    }
+    }*/
   
   
 }
