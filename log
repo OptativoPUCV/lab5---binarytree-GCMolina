@@ -2,3 +2,23 @@ Thu 14 Sep 2023 06:47:21 PM UTC:
  tests:  1|8
 total_score: 0/70
 a6f36da
+Thu 14 Sep 2023 06:59:26 PM UTC: 
+ treemap.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:4:
+treemap.c: In function ‘createTreeMap’:
+treemap.c:43:8: error: statement with no effect [-Werror=unused-value]
+   43 |     map->root;
+      |     ~~~^~~~~~
+treemap.c:44:8: error: statement with no effect [-Werror=unused-value]
+   44 |     map->current;
+      |     ~~~^~~~~~~~~
+treemap.c:42:16: error: unused variable ‘current’ [-Werror=unused-variable]
+   42 |     TreeNode * current =NULL;
+      |                ^~~~~~~
+treemap.c:41:16: error: unused variable ‘rood’ [-Werror=unused-variable]
+   41 |     TreeNode * rood =NULL;
+      |                ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+9cb4b19
