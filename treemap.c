@@ -100,6 +100,19 @@ if (node->left==NULL&&node->right==NULL){
   }
   free(node);
 }else if((node->left==NULL&&node->right!=NULL)||(node->left!=NULL && node->right==NULL)){
+  if(node->parent!=NULL){
+    if(node->left==NULL&&node->right!=NULL){
+      if(node == node->parent->left){
+        node->parent->left=node->right;
+        node->right->parent=node->parent;
+        free(node);
+      }else if(node==node->parent->right){
+        node->parent->right=node->right;
+        node->right->parent=node->parent;
+        free(node);
+      }
+    }
+  }
   
 }
 }
