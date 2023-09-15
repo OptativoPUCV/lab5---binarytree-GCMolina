@@ -95,9 +95,14 @@ if (node->left==NULL&&node->right==NULL){
     }
     
   }
+  else{
+    tree->root=NULL;
+  }
+  free(node);
+}else if(){
+  
 }
 }
-
 void eraseTreeMap(TreeMap * tree, void* key){
     if (tree == NULL || tree->root == NULL) return;
 
