@@ -170,7 +170,7 @@ Pair * upperBound(TreeMap * tree, void* key) {
   while(nodo!=NULL){
     if(tree->lower_than(nodo->pair->key,key)==0){
       aux=nodo->pair;
-      nodo=nodo->right;
+      nodo=nodo->left;
     }
     else{
       nodo=nodo->right;
