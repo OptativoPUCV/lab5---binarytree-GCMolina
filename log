@@ -178,3 +178,15 @@ treemap.c:124:19: error: expected ‘;’ before ‘}’ token
       |       ~            
 Compilation failed
 c2e4667
+Fri 15 Sep 2023 10:04:39 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘removeNode’:
+treemap.c:124:14: error: ‘noe’ undeclared (first use in this function); did you mean ‘node’?
+  124 |         free(noe);
+      |              ^~~
+      |              node
+treemap.c:124:14: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+4363ef0
