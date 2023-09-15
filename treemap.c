@@ -99,7 +99,7 @@ if (node->left==NULL&&node->right==NULL){
     tree->root=NULL;
   }
   free(node);
-}else if(){
+}else if((node->left==NULL&&node->right!=NULL)||(node->left!=NULL && node->right==NULL)){
   
 }
 }
