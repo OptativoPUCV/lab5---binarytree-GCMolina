@@ -190,14 +190,14 @@ Pair * nextTreeMap(TreeMap * tree) {
       if(aux->parent==NULL)return NULL;
       else if(tree->lower_than(tree->current->pair->key,aux->parent->pair->key)==1){
         aux=aux->parent;
-        tree->current=aux;
+        tree->current=aux
         return aux->pair;
       }
       else if (tree->lower_than(tree->current->pair->key,tree->current->pair->key)==1){
         aux=aux->parent;
       }
       else{
-        return aux>pair;
+        return aux->pair;
       }
     }
   }
