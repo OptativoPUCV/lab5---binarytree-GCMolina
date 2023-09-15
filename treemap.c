@@ -165,6 +165,17 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
 
 
 Pair * upperBound(TreeMap * tree, void* key) {
+  TreeNode*nodo =tree->root;
+  Pair*aux =NULL;
+  while(nodo!=NULL){
+    if(tree->lower_than(nodo->pair->key,key)==0){
+      aux=nodepair;
+      aux=node->left;
+    }
+    else{
+      nodo=nodo->right;
+    }
+  }
     return NULL;
 }
 
