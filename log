@@ -190,3 +190,9 @@ treemap.c:124:14: error: ‘noe’ undeclared (first use in this function); did 
 treemap.c:124:14: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 4363ef0
+Fri 15 Sep 2023 10:04:43 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  17|4
+total_score: 35/70
+17bfca4
