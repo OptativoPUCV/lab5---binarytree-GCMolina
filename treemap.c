@@ -113,7 +113,11 @@ if (node->left==NULL&&node->right==NULL){
       }
     }
     else if((node->left!=NULL&&node->right==NULL)){
-      if(node->parent->left)
+      if(node==node->parent->left){
+        node->parent->left=node->left;
+        
+        
+      }
       
     }
   }
