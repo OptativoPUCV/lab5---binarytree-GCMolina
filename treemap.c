@@ -129,7 +129,7 @@ if (node->left==NULL&&node->right==NULL){
   
 }
   else{
-    TreeNode*min = minium(node->right);
+    TreeNode*min = minimum(node->right);
     node->pair->key=min->pair->key;
     node->pair->value=min _>pair->value
       removeNode(tree, min)
