@@ -112,6 +112,10 @@ if (node->left==NULL&&node->right==NULL){
         free(node);
       }
     }
+    else if((node->left!=NULL&&node->right==NULL)){
+      if(node->parent->left)
+      
+    }
   }
   
 }
