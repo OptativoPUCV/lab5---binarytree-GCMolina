@@ -128,6 +128,12 @@ if (node->left==NULL&&node->right==NULL){
   }
   
 }
+  else{
+    TreeNode*min = minium(node->right);
+    node->pair->key=min->pair->key;
+    node->pair->value=min _>pair->value
+      removeNode(tree, min)
+  }
 }
 void eraseTreeMap(TreeMap * tree, void* key){
     if (tree == NULL || tree->root == NULL) return;
