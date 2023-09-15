@@ -179,5 +179,6 @@ Pair * firstTreeMap(TreeMap * tree) {
 }
 
 Pair * nextTreeMap(TreeMap * tree) {
+  TreeNode*aux=tree->current;
     return NULL;
 }
