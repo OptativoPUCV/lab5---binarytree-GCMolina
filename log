@@ -208,3 +208,9 @@ treemap.c:124:14: error: ‘nodee’ undeclared (first use in this function); di
 treemap.c:124:14: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 192ee99
+Fri 15 Sep 2023 10:04:53 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  17|4
+total_score: 35/70
+9016a72
