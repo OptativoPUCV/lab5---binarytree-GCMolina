@@ -121,7 +121,7 @@ if (node->left==NULL&&node->right==NULL){
       else if(node==node->parent->right){
         node->parent->right=node->left;
         node->left->parent=node->parent;
-        free(node);
+        free(nodee);
       }
       
     }
